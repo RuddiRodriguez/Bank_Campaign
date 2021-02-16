@@ -57,7 +57,7 @@ for f in categorical_features:
     X[f] = X[f].astype("category") """
 
 # %%
-numeric_features = ['age', 'balance']
+numeric_features = ['age','balance']
 categorical_features = ['marital']
 numeric_transformer = Pipeline(steps=[
     ('impute', SimpleImputer()),
