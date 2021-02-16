@@ -28,7 +28,7 @@ df = pd.read_csv('../Data/Bank-full.csv', sep=';')
 # %%
 df.columns
 # %%
-df.head()
+df.head(10)
 # %%
 df.info()
 # %%
